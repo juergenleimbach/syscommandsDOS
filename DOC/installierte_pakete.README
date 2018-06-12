@@ -1,0 +1,42 @@
+# Ausgabe von pip list
+# zeigt alle mit pip installierten Zusatzbibliotheken an
+
+pip list > <DATEINAME>
+# Gibt alle Bibliotheken aus und schreibt sie in die Datei <DATEINAME>
+
+Package           Version  
+----------------- ---------
+altgraph          0.15     
+astroid           1.6.4    
+colorama          0.3.9    
+future            0.16.0   
+isort             4.3.4    
+lazy-object-proxy 1.3.1    
+macholib          1.9      
+mccabe            0.6.1    
+pefile            2017.11.5
+pip               10.0.1   
+PyInstaller       3.3.1    
+pylint            1.9.1    
+PyQt5             5.10.1   
+pyqt5-tools       5.9.0.1.2
+pywin32           223      
+setuptools        39.0.1   
+sip               4.19.8   
+six               1.11.0   
+wrapt             1.10.11  
+wxPython          4.0.1    
+
+# Um pip selbst zu aktualisieren, folgenden Befehl verwenden:
+
+c:\python\python.exe -m pip install --upgrade pip
+
+# zur einfachen umwandlung eines pythonscripts - allgemein:
+
+pyinstaller -F -w <DATEINAME>
+
+# compiliert pyhon datei DATEINAME in windows exe, erzeugt nur eine Datei
+# ohne den Schalter -w wird das entstandene Programm in einem DOS-Fenster ausgeführt
+# Mit dem Schalter -w wird ein reines Windows-Programm erzeugt und die Standart-Ausgabe entsprechend
+# umgeleitet.
+
