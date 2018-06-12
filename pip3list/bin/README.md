@@ -12,3 +12,6 @@ Simple Helfertools, um verschiedene Python3 Installationen auf demselben Stand z
 
 Beide Tools funktionieren in Windows. Packen und kopieren Sie den Ordner bin, entpacken sie den Ordner auf einem anderen Rechner und starten Sie pip3list zum erstellen der Paketliste oder pip3clone, um geänderte oder neue Pakete zu installieren.
 
+Achtung: pip3list erzeugt immer eine neue Liste. Benutzen Sie es daher nicht als erstes, wenn Sie die Pakete einer anderen Installation clonen wollen. Benutzen Sie es nur, um Ihre aktuellen Pakete zu sichern und verwenden Sie pip3clone dann auf dem Rechner, auf dem Sie Pakete einspielen wollen.
+
+
