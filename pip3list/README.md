@@ -2,9 +2,11 @@
 ## Hilfstool für python pip
 
 ##pip3list
+
 Speichern der aktuell vorhandenen, mit pip eingespielten Pakete einer Python Installation in einer Textdatei
 
 ##pip3clone
+
 Aktualisiert pip3 bzw. prüft auf eine aktuelle Version
 Verwendet die oben erstellte Textdatei, um die Pakete in einer anderen Installation bereitzustellen
 
