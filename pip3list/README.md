@@ -10,5 +10,5 @@ Verwendet die oben erstellte Textdatei, um die Pakete in einer anderen Installat
 
 Simple Helfertools, um verschiedene Python3 Installationen auf demselben Stand zu halten und es dadurch zu erleichtern, ein und dasselbe Programm auf verschiedenen Rechnern zu erzeugen.
 
-Beide Tools funktionieren in Windows. Packen und kopieren Sie den Ordner run, entpacken sie den Ordner auf einem anderen Rechner und starten Sie pip3list zum erstellen der Paketliste oder pip3clone, um geänderte oder neue Pakete zu installieren.
+Beide Tools funktionieren in Windows. Packen und kopieren Sie den Ordner bin, entpacken sie den Ordner auf einem anderen Rechner und starten Sie pip3list zum erstellen der Paketliste oder pip3clone, um geänderte oder neue Pakete zu installieren.
 

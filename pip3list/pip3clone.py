@@ -9,19 +9,17 @@ import csv
 befehl = 'python.exe -m pip install --upgrade pip'
 fuehraus = runcmd (befehl)
 erzeugteliste = printdosscreen(fuehraus)
+for werte in range(0,len(erzeugteliste)):
+    print (erzeugteliste[werte])
 with open('pip3data.txt') as inf:
     reader = csv.reader(inf, delimiter=" ")
     
     col = list(zip(*reader))[0]
-print (col)
-
-
-
-
 num_lines = sum(1 for line in open('pip3data.txt'))
 for i in range(0,num_lines):
-    print(col[i])
-
-for werte in range(0,len(erzeugteliste)):
-    print (erzeugteliste[werte])
+    befehl = 'pip3 install '+col[i]
+    fuehraus = runcmd (befehl)
+    erzeugteliste = printdosscreen(fuehraus)
+    for werte in range(0,len(erzeugteliste)):
+        print (erzeugteliste[werte])
 
